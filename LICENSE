@@ -1,21 +1,87 @@
-MIT License
+Licence MIT
 
-Copyright (c) 2025 LaFlokance
+Copyright (c) 2025 La Flokance
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+L'autorisation est accordée, gratuitement, à toute personne obtenant une copie
+de ce logiciel et des fichiers de documentation associés (le "Logiciel"), de 
+traiter le Logiciel sans restriction, y compris, sans s'y limiter, les droits
+d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, 
+de sous-licencier et/ou de vendre des copies du Logiciel, et de permettre aux 
+personnes auxquelles le Logiciel est fourni de le faire, sous réserve des 
+conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+L'avis de copyright ci-dessus et cet avis de permission doivent être inclus 
+dans toutes les copies ou portions substantielles du Logiciel.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+LE LOGICIEL EST FOURNI "TEL QUEL", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU 
+IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE,
+D'ADÉQUATION À UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS,
+LES AUTEURS OU LES DÉTENTEURS DU COPYRIGHT NE POURRONT ÊTRE TENUS RESPONSABLES
+DE TOUTE RÉCLAMATION, DOMMAGE OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS UNE 
+ACTION CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DE, OU EN RELATION AVEC 
+LE LOGICIEL OU L'UTILISATION OU D'AUTRES TRANSACTIONS DANS LE LOGICIEL.
+
+---
+
+## Conditions d'utilisation spécifiques
+
+### ✅ Vous POUVEZ :
+- Utiliser ce loading screen sur votre serveur FiveM
+- Modifier le code selon vos besoins
+- Personnaliser les images, musiques, textes et couleurs
+- Redistribuer des versions modifiées
+- Utiliser ce projet à des fins commerciales
+
+### ⚠️ Vous DEVEZ :
+- Conserver l'avis de copyright dans les fichiers sources
+- Mentionner "Développé par La Flokance" dans les crédits du loading screen
+- Inclure une copie de cette licence dans toute redistribution
+
+### ❌ Vous NE POUVEZ PAS :
+- Retirer les crédits originaux de La Flokance
+- Prétendre être l'auteur original de ce projet
+- Tenir l'auteur responsable de tout problème causé par ce logiciel
+
+---
+
+## Ressources tierces
+
+Ce projet peut inclure des ressources tierces (musiques, images) qui peuvent 
+être soumises à leurs propres licences. Il est de votre responsabilité de 
+vous assurer que vous disposez des droits appropriés pour utiliser ces 
+ressources sur votre serveur.
+
+### Musiques
+Les fichiers musicaux inclus dans ce projet sont utilisés à titre d'exemple. 
+Vous devez remplacer ces fichiers par votre propre musique ou obtenir les 
+licences appropriées avant toute utilisation publique.
+
+### Images
+Les images fournies sont des exemples. Assurez-vous d'avoir les droits 
+d'utilisation pour toutes les images que vous incluez dans votre version 
+personnalisée.
+
+---
+
+## Clause de non-responsabilité
+
+Ce loading screen est fourni comme un outil pour la communauté FiveM. 
+L'auteur n'est pas responsable de :
+- Tout dommage causé à votre serveur ou à vos données
+- Problèmes de performance
+- Conflits avec d'autres ressources
+- Violation des droits d'auteur concernant les ressources que vous ajoutez
+
+---
+
+## Support et contribution
+
+Ce projet est open source et les contributions sont les bienvenues !
+Si vous apportez des améliorations, pensez à les partager avec la communauté.
+
+Pour toute question ou problème, veuillez ouvrir une issue sur le dépôt GitHub.
+
+---
+
+**Version de la licence : 1.0.0**
+**Dernière mise à jour : Novembre 2025**
