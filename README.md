@@ -295,7 +295,7 @@ files {
 ### Besoin d'aide ?
 - 📧 Contact : [laflokancedev@gmail.com]
 - 💬 Discord : [[Lien vers votre serveur Discord](https://discord.gg/U7yTzc4yrZ)]
-- 🐛 Issues : [Lien GitHub Issues]
+- 🐛 Issues : [[Lien GitHub Issues](https://github.com/LaFlokance/LoadingScreen/issues)]
 
 ### Contribuer au projet
 Les pull requests sont les bienvenues ! Pour des changements majeurs, ouvrez d'abord une issue pour discuter de vos idées.
