@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoadingScreen personalisable</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Background Container -->
+    <div id="background-container">
+        <!-- Images de fond (vos illustrations seront chargées par JS) -->
+        <div class="background-image active" data-scene="0">
+            <div class="bg-gradient scene-1"></div>
+            <div class="scene-decorations">
+                <div class="decoration-blob blob-1"></div>
+                <div class="decoration-blob blob-2"></div>
+                <div class="decoration-blob blob-3"></div>
+            </div>
+        </div>
+        <div class="background-image" data-scene="1">
+            <div class="bg-gradient scene-2"></div>
+            <div class="scene-decorations">
+                <div class="decoration-blob blob-1"></div>
+                <div class="decoration-blob blob-2"></div>
+            </div>
+        </div>
+        <div class="background-image" data-scene="2">
+            <div class="bg-gradient scene-3"></div>
+            <div class="scene-decorations">
+                <div class="decoration-blob blob-1"></div>
+                <div class="decoration-blob blob-2"></div>
+            </div>
+        </div>
+        <div class="background-image" data-scene="3">
+            <div class="bg-gradient scene-1"></div>
+            <div class="scene-decorations">
+                <div class="decoration-blob blob-1"></div>
+                <div class="decoration-blob blob-2"></div>
+            </div>
+        </div>
+        <div class="background-image" data-scene="4">
+            <div class="bg-gradient scene-2"></div>
+            <div class="scene-decorations">
+                <div class="decoration-blob blob-1"></div>
+                <div class="decoration-blob blob-2"></div>
+            </div>
+        </div>
+        
+        <!-- Overlays -->
+        <div class="vignette"></div>
+        <div class="gradient-overlay"></div>
+    </div>
+
+    <!-- UI Overlay -->
+    <div id="ui-overlay">
+        <!-- Header Navigation -->
+        <div class="header-nav">
+            <button class="nav-btn">Règlement</button>
+            <button class="nav-btn">Histoires</button>
+            <button class="nav-btn">Crédits</button>
+            <button class="nav-btn">Paramètres</button>
+        </div>
+
+        <!-- Scene Title (Bottom Left) -->
+        <div class="scene-info">
+            <h2 id="scene-title">Explorer Plus</h2>
+            <p id="scene-description">Découvrez du contenu et des fonctionnalités supplémentaires.</p>
+        </div>
+
+        <!-- Image Navigation (Bottom Left) -->
+        <div class="image-navigation">
+            <button class="nav-arrow" id="prev-image">
+                <span class="arrow">▲</span>
+                <span class="text">Image Précédente</span>
+            </button>
+            <div class="separator"></div>
+            <button class="nav-arrow" id="next-image">
+                <span class="text">Image Suivante</span>
+                <span class="arrow">▼</span>
+            </button>
+        </div>
+
+        <!-- Music Player (Bottom Right) -->
+        <div class="music-player">
+            <div class="album-art" id="album-art"></div>
+            <div class="track-info">
+                <p class="track-title" id="track-title">Summer Days</p>
+                <p class="track-artist" id="track-artist">Martin Garrix</p>
+            </div>
+            <div class="player-controls">
+                <button class="control-btn" id="prev-track">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 20L9 12l10-8v16zm-11 0V4"/>
+                    </svg>
+                </button>
+                <button class="control-btn play-pause" id="play-pause">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="6" y="4" width="4" height="16"></rect>
+                        <rect x="14" y="4" width="4" height="16"></rect>
+                    </svg>
+                </button>
+                <button class="control-btn" id="next-track">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 4l10 8-10 8V4zm11 0v16"/>
+                    </svg>
+                </button>
+                <button class="control-btn" id="volume">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                    </svg>
+                </button>
+                <button class="control-btn" id="playlist-toggle">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="8" y1="6" x2="21" y2="6"></line>
+                        <line x1="8" y1="12" x2="21" y2="12"></line>
+                        <line x1="8" y1="18" x2="21" y2="18"></line>
+                        <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                        <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                        <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Volume Slider -->
+        <div class="volume-slider" id="volume-slider">
+            <div class="volume-slider-header">VOLUME</div>
+            <div class="volume-slider-container" id="volume-slider-container">
+                <div class="volume-track">
+                    <div class="volume-fill" id="volume-fill"></div>
+                </div>
+                <div class="volume-thumb" id="volume-thumb"></div>
+            </div>
+            <div class="volume-percentage" id="volume-percentage">50%</div>
+        </div>
+
+        <!-- Playlist Menu -->
+        <div class="playlist-menu" id="playlist-menu">
+            <div class="playlist-header">
+                <h3>Playlist</h3>
+                <button class="close-playlist" id="close-playlist">✕</button>
+            </div>
+            <div class="playlist-items" id="playlist-items">
+                <!-- Les musiques seront ajoutées par JS -->
+            </div>
+        </div>
+
+        <!-- Progress Bar (Bottom Center) -->
+        <div class="progress-container">
+            <div class="spinner-container">
+                <div class="spinner"></div>
+            </div>
+            <div class="progress-info">
+                <div class="progress-header">
+                    <span class="loading-text" id="loading-text">Chargement en cours...</span>
+                    <span class="progress-percentage" id="progress-percentage">0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modal-title">
+                    <span class="modal-icon" id="modal-icon">📜</span>
+                    <span id="modal-title-text">Titre</span>
+                </h2>
+                <button class="modal-close" id="modal-close">✕</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Le contenu sera ajouté par JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
