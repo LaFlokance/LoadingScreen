@@ -293,7 +293,7 @@ files {
 ## 💡 Support et contribution
 
 ### Besoin d'aide ?
-- 📧 Contact : [votre@email.com]
+- 📧 Contact : [laflokancedev@gmail.com]
 - 💬 Discord : [Lien vers votre serveur Discord]
 - 🐛 Issues : [Lien GitHub Issues]
 
