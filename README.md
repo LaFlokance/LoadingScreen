@@ -294,7 +294,7 @@ files {
 
 ### Besoin d'aide ?
 - 📧 Contact : [laflokancedev@gmail.com]
-- 💬 Discord : [Lien vers votre serveur Discord]
+- 💬 Discord : [[Lien vers votre serveur Discord](https://discord.gg/U7yTzc4yrZ)]
 - 🐛 Issues : [Lien GitHub Issues]
 
 ### Contribuer au projet
